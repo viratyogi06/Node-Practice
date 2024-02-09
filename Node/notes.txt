@@ -9,3 +9,32 @@ and worker threads
 of multiple servers it helps the client to know which server to connect 
 based on the service
 - in order to return the html file we can use fs (file system) module
+
+******************** NODE MODULES ********************
+Modules are the usable code which increase the speed of development
+
+types
+* core Modules
+* user built Modules
+* npm Modules
+
+some of usefull core Modules
+* fs -> used to interact with the server filesystem
+    -> difference between sync and non sync functions
+* Readline -> used to interact with the console
+* noemailer -> a transporter need to be created having info about the
+                email service used and auth details then mailOptions
+                (this holds the email config details) are 
+                specified which can be used to sendEmail using the 
+                transporter object having config info 
+                a callback is passed along with mail options to catch
+                any error
+
+            -> HTML emails can be sent
+            -> templates can be created and used
+            -> attachments can be sent
+
+path.join method is used to make path functions non-OS specific
+
+
+
