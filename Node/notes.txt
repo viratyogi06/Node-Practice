@@ -1,0 +1,11 @@
+- It is a runtime used for creating non blocking I/O process executions
+- Handles Garbage collection and Memory Management
+- Non blocking synchronous operations allow single event loop to execute 
+operations asynchronously by using promises, callbacks, async/await
+- How does event loop works
+- I/O operations are executed asynchronously using event loop 
+and worker threads
+- What is a port -> It is used to uniquely identify a service, in case
+of multiple servers it helps the client to know which server to connect 
+based on the service
+- in order to return the html file we can use fs (file system) module
